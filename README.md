@@ -76,19 +76,7 @@ This project is suitable for organizations or educational platforms looking to a
 
 ## Directory Structure
 
-project-root/
-│-- src/
-│   ├── main/
-│   │   ├── java/com/example/demo/
-│   │   │   ├── controllers/  # Contains REST controllers for each entity
-│   │   │   ├── entities/  # JPA entity classes (User, Course, Enrollment, Language, LearningGoal)
-│   │   │   ├── repositories/  # Spring Data JPA repositories
-│   │   │   ├── services/  # Business logic and service layer
-│   │   ├── resources/
-│   │   │   ├── application.properties  # Database and application configuration
-│   ├── test/  # Unit and integration tests
-│-- pom.xml  # Maven configuration
-│-- README.md  # Project documentation
+project-root/│-- src/ │ ├── main/ │ │ ├── java/com/example/demo/ │ │ │ ├── controllers/ # Contains REST controllers for each entity │ │ │ ├── entities/ # JPA entity classes (User, Course, Enrollment, Language, LearningGoal) │ │ │ ├── repositories/ # Spring Data JPA repositories │ │ │ ├── services/ # Business logic and service layer │ │ ├── resources/ │ │ │ ├── application.properties # Database and application configuration │ ├── test/ # Unit and integration tests │-- pom.xml # Maven configuration │-- README.md # Project documentation
 
 
 ## Configuration Changes
